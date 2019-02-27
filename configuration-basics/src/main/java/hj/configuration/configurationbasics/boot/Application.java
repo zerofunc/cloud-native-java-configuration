@@ -26,8 +26,8 @@ public class Application {
 	
 }
 
-//<2>
 @Component
+//<2>
 @ConfigurationProperties("configuration")
 class ConfigurationProjectProperties {
 	private String projectName;//<3>
